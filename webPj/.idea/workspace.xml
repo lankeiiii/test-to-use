@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e988fcb-e982-4efa-a657-e6a7e22c7320" name="Default" comment="" />
+    <list default="true" id="7e988fcb-e982-4efa-a657-e6a7e22c7320" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webPj.iml" afterPath="$PROJECT_DIR$/.idea/webPj.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterfall-test/index.html" afterPath="$PROJECT_DIR$/waterfall-test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waterfall-test/waterfall.js" afterPath="$PROJECT_DIR$/waterfall-test/waterfall.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,44 +23,48 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waterfall-test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Favlist.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="661">
+              <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterfall.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/waterfall-test/waterfall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+              <folding>
+                <element signature="n#!!block;n#WaterFall#0" expanded="false" />
+                <element signature="e#658#703#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/waterfall-test/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,10 +74,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:&quot;\201C&quot; &quot;\201D&quot; &quot;\2018&quot; &quot;\2019&quot;;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type=&quot;button&quot;],input[type=&quot;reset&quot;],input[type=&quot;submit&quot;]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type=&quot;checkbox&quot;],input[type=&quot;radio&quot;]{box-sizing:border-box;padding:0;}input[type=&quot;search&quot;]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=&quot;search&quot;]::-webkit-search-cancel-button,input[type=&quot;search&quot;]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}</find>
+      <find>&lt;SCRIPT language=JavaScript&gt;&lt;BR&gt;&lt;!--&lt;BR&gt;dCol=´yellow´; //定义日历颜色&lt;BR&gt;fCol=´#ff0000´; //定义1-12这12个数的颜色&lt;BR&gt;sCol=´#00ff00´; //定义秒针颜色&lt;BR&gt;mCol=´#0000ff´; //定义分针颜色&lt;BR&gt;hCol=´#ff0000´; //定义时针颜色&lt;BR&gt;ClockHeight=40; //定义时钟的高度&lt;BR&gt;ClockWidth=40; //定义时钟的宽度&lt;BR&gt;ClockFromMouseY=0; //定义时钟的中心距鼠标的相对垂直距离&lt;BR&gt;ClockFromMouseX=100; //定义时钟中心距鼠标的相对水平距离&lt;BR&gt;//以上颜色值你要据你页面的背景颜色进行修改！注意不要你页面的背景色一致哦。&lt;BR&gt;d=new Array(&quot;星期日&quot;,&quot;星期一&quot;,&quot;星期二&quot;,&quot;星期三&quot;,&quot;星期四&quot;,&quot;星期五&quot;,&quot;星期六&quot;);&lt;BR&gt;m=new Array(&quot;一月&quot;,&quot;二月&quot;,&quot;三月&quot;,&quot;四月&quot;,&quot;五月&quot;,&quot;六月&quot;,&quot;七月&quot;,&quot;八月&quot;,&quot;九月&quot;,&lt;BR&gt;&quot;十月&quot;,&quot;十一月&quot;,&quot;十二月&quot;); //以上是给定星期和月份的取值范围&lt;BR&gt;date=new Date();&lt;BR&gt;day=date.getDate(); //取得当前日期命令&lt;BR&gt;year=date.getYear(); //取得当前年份命令&lt;BR&gt;if (year &lt; 2000) year=year+1900;&lt;BR&gt;TodaysDate=&quot;年 &quot;+m[date.getMonth()]+&quot; &quot;+day+&quot;日 &quot;+d[date.getDay()]+&quot; &quot;+year;&lt;BR&gt;D=TodaysDate.split(´´); //显示“某年某月某日”&lt;BR&gt;H=´...´;&lt;BR&gt;H=H.split(´´);&lt;BR&gt;M=´....´;&lt;BR&gt;M=M.split(´´);&lt;BR&gt;S=´.....´;&lt;BR&gt;S=S.split(´´); //使秒、分、时针反向相应的位置&lt;BR&gt;Face=´1 2 3 4 5 6 7 8 9 10 11 12´;&lt;BR&gt;font=´Arial´;&lt;BR&gt;size=1; //定义秒、分、时针及1-12等字符的宋体、大小（最好匆改动哦）&lt;BR&gt;speed=0.8; //定义一旦鼠标位置发生变化时所有相关字符跟随至前面指定的鼠标的相对位置的速度，&lt;BR&gt;能看到各字符的轨迹，值可在0.1-1.0之间改动（值最小为0.1时跟随过来的速度最慢，值为1.0时跟随速度最快且与轨迹显示）&lt;BR&gt;ns=(document.layers);&lt;BR&gt;ie=(document.all); //说明在NS和IE两种不同浏览器里都适用&lt;BR&gt;&lt;BR&gt;//以下的大段语句定义了NS和IE浏览器各自如何控制并完成时间和旋转的日历跟随鼠标转的&lt;BR&gt;Face=Face.split(´ ´);&lt;BR&gt;n=Face.length;&lt;BR&gt;a=size*10;&lt;BR&gt;ymouse=0;&lt;BR&gt;xmouse=0;&lt;BR&gt;scrll=0;&lt;BR&gt;props=&quot;&lt;font face=&quot;+font+&quot; size=&quot;+size+&quot; color=&quot;+fCol+&quot;&gt;&quot;;&lt;BR&gt;props2=&quot;&lt;font face=&quot;+font+&quot; size=&quot;+size+&quot; color=&quot;+dCol+&quot;&gt;&quot;;&lt;BR&gt;Split=360/n;&lt;BR&gt;Dsplit=360/D.length;&lt;BR&gt;HandHeight=ClockHeight/4.5&lt;BR&gt;HandWidth=ClockWidth/4.5&lt;BR&gt;HandY=-7;&lt;BR&gt;HandX=-2.5;&lt;BR&gt;scrll=0;&lt;BR&gt;step=0.06;&lt;BR&gt;currStep=0;&lt;BR&gt;y=new Array();x=new Array();Y=new Array();X=new Array();&lt;BR&gt;for (i=0; i &lt; n; i++){y[i]=0;x[i]=0;Y[i]=0;X[i]=0}&lt;BR&gt;Dy=new Array();Dx=new Array();DY=new Array();DX=new Array();&lt;BR&gt;for (i=0; i &lt; D.length; i++){Dy[i]=0;Dx[i]=0;DY[i]=0;DX[i]=0}&lt;BR&gt;&lt;BR&gt;if (ns){&lt;BR&gt;for (i=0; i &lt; D.length; i++)&lt;BR&gt;document.write(´&lt;layer name=&quot;nsDate´+i+´&quot; top=0 left=0 height=´+a+´ width=´+a+´&gt;&lt;center&gt;´+props2+D[i]+´&lt;/font&gt;&lt;/center&gt;&lt;/layer&gt;´);&lt;BR&gt;for (i=0; i &lt; n; i++)&lt;BR&gt;document.write(´&lt;layer name=&quot;nsFace´+i+´&quot; top=0 left=0 height=´+a+´ width=´+a+´&gt;&lt;center&gt;´+props+Face[i]+´&lt;/font&gt;&lt;/center&gt;&lt;/layer&gt;´);&lt;BR&gt;for (i=0; i &lt; S.length; i++)&lt;BR&gt;document.write(´&lt;layer name=nsSeconds´+i+´ top=0 left=0 width=15&lt;BR&gt;height=15&gt;&lt;font face=Arial size=3 color=´+sCol+´&gt;&lt;center&gt;&lt;b&gt;´+S[i]+´&lt;/b&gt;&lt;/center&gt;&lt;/font&gt;&lt;/layer&gt;´);&lt;BR&gt;for (i=0; i &lt; M.length; i++)&lt;BR&gt;document.write(´&lt;layer name=nsMinutes´+i+´ top=0 left=0 width=15&lt;BR&gt;height=15&gt;&lt;font face=Arial size=3 color=´+mCol+´&gt;&lt;center&gt;&lt;b&gt;´+M[i]+´&lt;/b&gt;&lt;/center&gt;&lt;/font&gt;&lt;/layer&gt;´);&lt;BR&gt;for (i=0; i &lt; H.length; i++)&lt;BR&gt;document.write(´&lt;layer name=nsHours´+i+´ top=0 left=0 width=15&lt;BR&gt;height=15&gt;&lt;font face=Arial size=3 color=´+hCol+´&gt;&lt;center&gt;&lt;b&gt;´+H[i]+´&lt;/b&gt;&lt;/center&gt;&lt;/font&gt;&lt;/layer&gt;´);&lt;BR&gt;}&lt;BR&gt;&lt;BR&gt;if (ie){&lt;BR&gt;document.write(´&lt;div id=&quot;Od&quot; style=&quot;position:absolute;top:0px;left:0px&quot;&gt;&lt;div style=&quot;position:relative&quot;&gt;´);&lt;BR&gt;for (i=0; i &lt; D.length; i++)&lt;BR&gt;document.write(´&lt;div id=&quot;ieDate&quot; style=&quot;position:absolute;top:0px;left:0;height:´+a+´;width:´+a+´;text-align:center&quot;&gt;´+props2+D[i]+´&lt;/font&gt;&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;/div&gt;&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;div id=&quot;Of&quot; style=&quot;position:absolute;top:0px;left:0px&quot;&gt;&lt;div style=&quot;position:relative&quot;&gt;´);&lt;BR&gt;for (i=0; i &lt; n; i++)&lt;BR&gt;document.write(´&lt;div id=&quot;ieFace&quot; style=&quot;position:absolute;top:0px;left:0;height:´+a+´;width:´+a+´;text-align:center&quot;&gt;´+props+Face[i]+´&lt;/font&gt;&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;/div&gt;&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;div id=&quot;Oh&quot; style=&quot;position:absolute;top:0px;left:0px&quot;&gt;&lt;div style=&quot;position:relative&quot;&gt;´);&lt;BR&gt;for (i=0; i &lt; H.length; i++)&lt;BR&gt;document.write(´&lt;div id=&quot;ieHours&quot; style=&quot;position:absolute;width:16px;&lt;BR&gt;height:16px;font-family:Arial;font-size:16px;color:´+hCol+´;text-align:center;font-weight:bold&quot;&gt;´+H[i]+´&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;/div&gt;&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;div id=&quot;Om&quot; style=&quot;position:absolute;top:0px;left:0px&quot;&gt;&lt;div style=&quot;position:relative&quot;&gt;´);&lt;BR&gt;for (i=0; i &lt; M.length; i++)&lt;BR&gt;document.write(´&lt;div id=&quot;ieMinutes&quot; style=&quot;position:absolute;width:16px;&lt;BR&gt;height:16px;font-family:Arial;font-size:16px;color:´+mCol+´;text-align:center;font-weight:bold&quot;&gt;´+M[i]+´&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;/div&gt;&lt;/div&gt;´)&lt;BR&gt;document.write(´&lt;div id=&quot;Os&quot; style=&quot;position:absolute;top:0px;left:0px&quot;&gt;&lt;div style=&quot;position:relative&quot;&gt;´);&lt;BR&gt;for (i=0; i &lt; S.length; i++)&lt;BR&gt;document.write(´&lt;div id=&quot;ieSeconds&quot; style=&quot;position:absolute;width:16px;&lt;BR&gt;height:16px;font-family:Arial;font-size:16px;color:´+sCol+´;text-align:center;font-weight:bold&quot;&gt;´+S[i]+´&lt;/div&gt;´);&lt;BR&gt;document.write(´&lt;/div&gt;&lt;/div&gt;´)&lt;BR&gt;}&lt;BR&gt;(ns)?window.captureEvents(Event.MOUSEMOVE):0;&lt;BR&gt;function Mouse(evnt){&lt;BR&gt;ymouse = (ns)?evnt.pageY+ClockFromMouseY-(window.pageYOffset):&lt;BR&gt;event.y+ClockFromMouseY;&lt;BR&gt;xmouse = (ns)?evnt.pageX+ClockFromMouseX:event.x+ClockFromMouseX;&lt;BR&gt;}&lt;BR&gt;(ns)?window.onMouseMove=Mouse:document.onmousemove=Mouse;&lt;BR&gt;function ClockAndAssign(){&lt;BR&gt;time = new Date ();&lt;BR&gt;secs = time.getSeconds();&lt;BR&gt;sec = -1.57 + Math.PI * secs/30;&lt;BR&gt;mins = time.getMinutes();&lt;BR&gt;min = -1.57 + Math.PI * mins/30;&lt;BR&gt;hr = time.getHours();&lt;BR&gt;hrs = -1.575 + Math.PI * hr/6+Math.PI*parseInt(time.getMinutes())/360;&lt;BR&gt;if (ie){&lt;BR&gt;Od.style.top=window.document.body.scrollTop;&lt;BR&gt;Of.style.top=window.document.body.scrollTop;&lt;BR&gt;Oh.style.top=window.document.body.scrollTop;&lt;BR&gt;Om.style.top=window.document.body.scrollTop;&lt;BR&gt;Os.style.top=window.document.body.scrollTop;&lt;BR&gt;}&lt;BR&gt;for (i=0; i &lt; n; i++){&lt;BR&gt;var F=(ns)?document.layers[´nsFace´+i]:ieFace[i].style;&lt;BR&gt;F.top=y[i] + ClockHeight*Math.sin(-1.0471 + i*Split*Math.PI/180)+scrll;&lt;BR&gt;F.left=x[i] + ClockWidth*Math.cos(-1.0471 + i*Split*Math.PI/180);&lt;BR&gt;}&lt;BR&gt;for (i=0; i &lt; H.length; i++){&lt;BR&gt;var HL=(ns)?document.layers[´nsHours´+i]:ieHours[i].style;&lt;BR&gt;HL.top=y[i]+HandY+(i*HandHeight)*Math.sin(hrs)+scrll;&lt;BR&gt;HL.left=x[i]+HandX+(i*HandWidth)*Math.cos(hrs);&lt;BR&gt;}&lt;BR&gt;for (i=0; i &lt; M.length; i++){&lt;BR&gt;var ML=(ns)?document.layers[´nsMinutes´+i]:ieMinutes[i].style;&lt;BR&gt;ML.top=y[i]+HandY+(i*HandHeight)*Math.sin(min)+scrll;&lt;BR&gt;ML.left=x[i]+HandX+(i*HandWidth)*Math.cos(min);&lt;BR&gt;}&lt;BR&gt;for (i=0; i &lt; S.length; i++){&lt;BR&gt;var SL=(ns)?document.layers[´nsSeconds´+i]:ieSeconds[i].style;&lt;BR&gt;SL.top=y[i]+HandY+(i*HandHeight)*Math.sin(sec)+scrll;&lt;BR&gt;SL.left=x[i]+HandX+(i*HandWidth)*Math.cos(sec);&lt;BR&gt;}&lt;BR&gt;for (i=0; i &lt; D.length; i++){&lt;BR&gt;var DL=(ns)?document.layers[´nsDate´+i]:ieDate[i].style;&lt;BR&gt;DL.top=Dy[i] + ClockHeight*1.5*Math.sin(currStep+i*Dsplit*Math.PI/180)+scrll;&lt;BR&gt;DL.left=Dx[i] + ClockWidth*1.5*Math.cos(currStep+i*Dsplit*Math.PI/180);&lt;BR&gt;}&lt;BR&gt;currStep-=step;&lt;BR&gt;}&lt;BR&gt;function Delay(){&lt;BR&gt;scrll=(ns)?window.pageYOffset:0;&lt;BR&gt;Dy[0]=Math.round(DY[0]+=((ymouse)-DY[0])*speed);&lt;BR&gt;Dx[0]=Math.round(DX[0]+=((xmouse)-DX[0])*speed);&lt;BR&gt;for (i=1; i &lt; D.length; i++){&lt;BR&gt;Dy[i]=Math.round(DY[i]+=(Dy[i-1]-DY[i])*speed);&lt;BR&gt;Dx[i]=Math.round(DX[i]+=(Dx[i-1]-DX[i])*speed);&lt;BR&gt;}&lt;BR&gt;y[0]=Math.round(Y[0]+=((ymouse)-Y[0])*speed);&lt;BR&gt;x[0]=Math.round(X[0]+=((xmouse)-X[0])*speed);&lt;BR&gt;for (i=1; i &lt; n; i++){&lt;BR&gt;y[i]=Math.round(Y[i]+=(y[i-1]-Y[i])*speed);&lt;BR&gt;x[i]=Math.round(X[i]+=(x[i-1]-X[i])*speed);&lt;BR&gt;}&lt;BR&gt;ClockAndAssign();&lt;BR&gt;setTimeout(´Delay()´,20);&lt;BR&gt;}&lt;BR&gt;if (ns||ie)window.onload=Delay;&lt;BR&gt;//--&gt;&lt;BR&gt;&lt;/SCRIPT&gt;</find>
+      <find>--</find>
+      <find>h</find>
+      <find>&lt;div class=&quot;pic&quot;&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>div</replace>
+      <replace>&lt;div class=&quot;box&quot;&gt;&lt;div class=&quot;pic&quot;&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,6 +108,18 @@
         <option value="$PROJECT_DIR$/app/index/b.html" />
         <option value="$PROJECT_DIR$/app/index/entry.js" />
         <option value="$PROJECT_DIR$/app/index/index.html" />
+        <option value="$PROJECT_DIR$/test/alert.html" />
+        <option value="$PROJECT_DIR$/test/main.js" />
+        <option value="$PROJECT_DIR$/test/window.js" />
+        <option value="$PROJECT_DIR$/test1/require.js" />
+        <option value="$PROJECT_DIR$/test1/window.js" />
+        <option value="$PROJECT_DIR$/banner/a.html" />
+        <option value="$USER_HOME$/Desktop/jsdemo/normalize.css" />
+        <option value="$PROJECT_DIR$/test1/alert.html" />
+        <option value="$PROJECT_DIR$/test1/main.js" />
+        <option value="$PROJECT_DIR$/waterfall-test/style.css" />
+        <option value="$PROJECT_DIR$/waterfall-test/index.html" />
+        <option value="$PROJECT_DIR$/waterfall-test/waterfall.js" />
       </list>
     </option>
   </component>
@@ -100,11 +138,14 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1056" />
+    <option name="x" value="83" />
+    <option name="width" value="1844" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -144,33 +185,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webPj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webPj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="waterfall-test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,10 +201,11 @@
     <property name="js-jscs-nodeInterpreter" value="D:\node\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,32 +294,49 @@
       <workItem from="1484380161437" duration="124000" />
       <workItem from="1484380315916" duration="9462000" />
       <workItem from="1484549924506" duration="2062000" />
+      <workItem from="1487230423245" duration="1901000" />
+      <workItem from="1487902257787" duration="7523000" />
+      <workItem from="1488330854913" duration="21106000" />
+      <workItem from="1489368843251" duration="1129000" />
+      <workItem from="1489475306743" duration="626000" />
+      <workItem from="1489716223073" duration="6162000" />
+      <workItem from="1490059085975" duration="18729000" />
     </task>
+    <task id="LOCAL-00001" summary="waterfall-test">
+      <created>1490060687771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490060687771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24059000" />
+    <option name="totallyTimeSpent" value="81235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <frame x="83" y="0" width="1844" height="1044" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21474019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15212528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36946386" sideWeight="0.5021209" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22494173" sideWeight="0.49787912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,60 +348,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="waterfall-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="waterfall-test" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,109 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,9 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,7 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -519,7 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
           <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,41 +523,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index/components/Favlist.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="224">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/window.js" />
+    <entry file="file://$PROJECT_DIR$/test1/require.js" />
+    <entry file="file://$USER_HOME$/Desktop/jsdemo/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jsdemo/d-576.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="44" column="31" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jsdemo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/jsdemo/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="162" column="10" lean-forward="true" selection-start-line="162" selection-start-column="10" selection-end-line="162" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/images/P_06.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/images/P_07.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../源码/CSS3/css/waterfall.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../源码/JavaScript/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/images/P_05.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="18" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../源码/jQuery/js/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <element signature="e#218#579#0" expanded="false" />
+            <element signature="n#!!block;n#waterfall#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#15;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#18;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/waterfall-test/waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
+          <folding>
+            <element signature="n#!!block;n#WaterFall#0" expanded="false" />
+            <element signature="e#658#703#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
