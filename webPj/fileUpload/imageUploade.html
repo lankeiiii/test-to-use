@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传预览图片</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"> </script>
+
+    <link type="text/css" rel="stylesheet" href="./pagewalkthrough/css/jquery.pagewalkthrough.css" />
+    <!--<script type="text/javascript" src="../node_modules/pagewalkthrough/jquery.min.js"></script>-->
+    <style>
+        #walkthrough-content{display:none}
+    </style>
+</head>
+<body>
+<form >
+    <input type="file" id="file">
+    <lable>进度</lable><progress id="progress" value="0" max="100"></progress>
+</form>
+<canvas id="image" style="display: none"></canvas>
+<canvas id="box"></canvas>
+<div id="walkthrough-content">
+    <div id="walkthrough-2">
+        点击按钮 上传一张图片
+    </div>
+
+    <div id="walkthrough-3">
+        这里查看上传的进度
+    </div>
+
+    <div id="walkthrough-4">
+        预览图显示在这里 点击图片可放大
+    </div>
+</div>
+<script type="text/javascript" src="./pagewalkthrough/jquery.pagewalkthrough.js"> </script>
+<script>
+
+
+    /*----图片发大晶部分-----*/
+    <!--加[0]是将jq对象变成dom对象-->
+    var box = $('#box')[0];
+    var im = $('#image')[0];
+//    var im = document.getElementById('image');
+    var contextImg = im.getContext("2d");
+    var contextBox = box.getContext("2d");
+    var scale;
+    var flag = false;
+//canvas 标签的width和height设置的是画布的尺寸，style里设置的是图片的尺寸
+    $('#box').css({
+        position:'absolute',
+//        width:'500px',
+//        height:'300px',
+        top:($(window).height()-300)/2 + 'px',
+        left:($(window).width()-500)/2 + 'px'
+    });
+//    jq的width()方法也是设置css的
+    box.width=500;
+    box.height=300;
+    var image = new Image();
+    /*功能介绍引导效果*/
+    $(function(){
+        $('body').pagewalkthrough({
+            name: 'introduction',
+            steps: [{
+                popup: {
+                    content: '#walkthrough-1',
+                    type: 'modal'
+                }
+            },
+                {
+                    wrapper: '#file',
+                    popup: {
+                        content: '#walkthrough-2',
+                        type: 'tooltip',
+                        position: 'bottom'
+                    }
+                },
+                {
+                    wrapper: '#progress',
+                    popup: {
+                        content: '#walkthrough-3',
+                        type: 'tooltip',
+                        position: 'bottom'
+                    }
+                },
+                {
+                    wrapper: '#box',
+                    popup: {
+                        content: '#walkthrough-4',
+                        type: 'tooltip',
+                        position: 'top'
+                    }
+                }]
+        });
+
+        // Show the tour
+        $('body').pagewalkthrough('show');
+    });
+
+    window.onload = function(){
+        /*----上传图片部分----*/
+        $('#file').change(function(){
+            var file = $("#file")[0].files[0];
+            var reader = new FileReader();
+            var form = new FormData();
+            form.append('file',file);
+            $.ajax({
+                url:'imageUploade.html',
+                type:"post",
+                data:file,
+                processData: false,  // tell jQuery not to process the data
+                contentType: false,
+                xhr:function () {
+                    var xhr = jQuery.ajaxSettings.xhr();
+                    xhr.upload.onprogress = function (e) {
+                        if(e.lengthComputable){
+                            var percent = e.loaded/e.total * 100;
+                            $('Progress').val(percent);
+                        }
+                    }
+                    return xhr
+                }
+            });
+            reader.readAsDataURL(file);
+            reader.onload = function () {
+                image.src = this.result;
+            }
+
+        });
+        //image.src = 'bg.png';
+        //原始图片布局
+        $('#image').css({
+            position:'absolute',
+            top:($('#box').position().top+150-(image.height/2)) ,
+            left:($('#box').position().left+250-(image.width/2)),
+        });
+//        im.width=image.width;
+//        im.height=image.height;
+        image.onload = function(){
+            im.width=this.width;
+            im.height=this.height;
+            scale = image.width/box.width;
+            contextBox.drawImage(image,0,0,$('#box').width(),$('#box').height());
+            contextImg.drawImage(image,0,0);
+        }
+
+    }
+//转换坐标
+    function coordinate(x,y) {
+        x = x-$('#box').position().left;
+        y = y-$('#box').position().top;
+        return{x,y};
+    }
+//绘画放大镜
+    function magnifier(point){
+        contextBox.clearRect(0,0,box.width,box.height);
+        contextBox.drawImage(image,0,0,box.width,box.height);
+//放大镜半径
+        var r = 50;
+//放大镜绘画起点
+        var x = point.x - r;
+        var y = point.y - r;
+//裁剪出放大镜大小的顶点
+        var sx = point.x * scale- r;
+        var sy = point.y * scale - r;
+
+        contextBox.save();
+        contextBox.beginPath();
+        contextBox.arc(point.x,point.y,r,0,2*Math.PI,false);
+        contextBox.stroke();
+        contextBox.clip();
+        contextBox.drawImage(im,sx,sy,2*r,2*r,x,y,2*r,2*r);
+        contextBox.restore();
+
+
+    }
+
+    box.onmousedown = function (e) {
+        e.preventDefault();
+        flag = true;
+        var point = coordinate(e.clientX,e.clientY);
+        magnifier(point);
+    };
+    box.onmousemove = function (e) {
+        e.preventDefault();
+        if(flag){
+            var point = coordinate(e.clientX,e.clientY);
+            magnifier(point);
+        }
+    };
+    box.onmouseup = function (e) {
+        e.preventDefault();
+        flag = false;
+        magnifier(false);
+    };
+    box.onmouseout = function (e) {
+        e.preventDefault();
+        flag = false;
+        magnifier(false);
+    }
+
+</script>
+</body>
+</html>
